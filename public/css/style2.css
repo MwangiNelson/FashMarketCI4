@@ -1,0 +1,156 @@
+body{
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+}
+footer{
+    position:relative;
+    bottom:0;
+    width: 100%;
+}
+.flink {
+    text-decoration: none;
+    color: white;
+  }
+  .iconholder {
+    justify-content: center;
+    width: 100%;
+  }
+  .wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .wrapper .button:nth-child(1) .icon {
+    background: #4267b2;
+  }
+  .wrapper .button:nth-child(2) .icon {
+    background: #1da1f2;
+  }
+  .wrapper .button:nth-child(3) .icon {
+    background: #e1306c;
+  }
+  .wrapper .button:nth-child(4) .icon {
+    background: #333;
+  }
+  .wrapper .button:nth-child(5) .icon {
+    background: #ff0000;
+  }
+  .wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.2s ease-out;
+  }
+  .wrapper .button:hover .icon i {
+    color: #fff;
+  }
+  .wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span {
+    color: #4267b2;
+  }
+  .wrapper .button:nth-child(2) span {
+    color: #1da1f2;
+  }
+  .wrapper .button:nth-child(3) span {
+    color: #e1306c;
+  }
+  .wrapper .button:nth-child(4) span {
+    color: #333;
+  }
+  .wrapper .button:nth-child(5) span {
+    color: #ff0000;
+  }
+  footer {
+    background-color: #b1a99b;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    margin-left: 30%;
+    padding: 50px;
+  }
+  
+  .wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-out;
+  }
+  .wrapper .button:hover {
+    width: 200px;
+  }
+  .sidebar{
+    position:absolute;
+      height: 100vh;
+      width: 20%;
+      color: #333;
+      background-color: #1da1f2;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+  }
+  .profile{
+    position: relative;
+    bottom: 0;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+  }
+  .profile a{
+    color: #333;
+  }
+  ul a {
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+
+  }
+  ul{
+    list-style-type: none;
+  }
+
+  li{
+    padding-top: 15%;
+  }
+  .logo-holder{
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+  }
+  #dashboard{
+    background-color: #4267b2;
+    height: 100vh;
+    left: 20%;
+  }
+  .Wrap{
+    display: inline-flex;
+  }
+  .panel{
+    overflow:hidden;
+    animation: fadein .8s;
+  }
+ 
